@@ -3,10 +3,10 @@ import openai
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
-# openai.api_key = 'x1'
-# openai.api_type = 'azure'
-# openai.api_base = 'https://y.openai.azure.com/'
-# openai.api_version = '2021-11-01-preview'
+openai.api_key = 'x1'
+openai.api_type = 'azure'
+openai.api_base = 'https://y.openai.azure.com/'
+openai.api_version = '2021-11-01-preview'
 language_key = 'x2'
 language_endpoint = 'https://z.api.cognitive.microsoft.com/'
 query = 'For how long can I run a Microsoft Teams live event?'
